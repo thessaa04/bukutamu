@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buku Tamu Digital BBMKG Wilayah III</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Buku Tamu Digital BBMKG Wilayah III</h1>
+    <form action="formm.php" method="post">
+      <div class="form-group">
+        <label for="nama_lengkap">Nama Lengkap *</label>
+        <div class="input-group">
+          <i class="fas fa-user fa-lg"></i>
+          <input type="text" class="form-control" id="nama_lengkap" name="nama_lengkap" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="kantor_instansi">Kantor/Instansi/Perusahaan</label>
+        <div class="input-group">
+          <i class="fas fa-building fa-lg"></i>
+          <input type="text" class="form-control" id="kantor_instansi" name="kantor_instansi">
+        </div>
+      </div>
+      <div class="form-group"><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Registrasi Tamu</title>
+            <link rel="stylesheet" href="form.css">
+        </head>
+        <body>
+            <header>
+                <h1>Registrasi Tamu</h1>
+            </header>
+            <main>
+                <form action="form.php" method="post">
+                    <div class="form-group">
+                        <label for="nama_lengkap">Nama Lengkap*</label>
+                        <input type="text" id="nama_lengkap" name="nama_lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="instansi">Kantor/Instansi/Perusahaan</label>
+                        <input type="text" id="instansi" name="instansi">
+                    </div>
+                    <div class="form-group">
+                        <label for="alamat">Alamat Kantor/Rumah*</label>
+                        <input type="text" id="alamat" name="alamat" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="no_telepon">No Telepon*</label>
+                        <input type="text" id="no_telepon" name="no_telepon" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="keperluan">Keperluan</label>
+                        <select id="keperluan" name="keperluan">
+                            <option value="wawancara tentang cuaca">Wawancara tentang cuaca</option>
+                            <option value="konsultasi">Konsultasi</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="unit_dituju">Unit/Ruang yang Dituju</label>
+                        <select id="unit_dituju" name="unit_dituju">
+                            <option value="meteorologi">Meteorologi</option>
+                            <option value="klimatologi">Klimatologi</option>
+                            <option value="geofisika">Geofisika</option>
+                        </select>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </main>
+            <footer>
+                &copy; 2023 Registrasi Tamu
+            </footer>
+        <label for="alamat">Alamat Kantor/Rumah *</label>
+        <div class="input-group">
+          <i class="fas fa-map-marker-alt fa-lg"></i>
+          <input type="text" class="form-control" id="alamat" name="alamat" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="nomor_telepon">No Telepon *</label>
+        <div class="input-group">
+          <i class="fas fa-phone fa-lg"></i>
+          <input type="text" class="form-control" id="nomor_telepon" name="nomor_telepon" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="keperluan">Keperluan</label>
+        <div class="input-group">
+          <i class="fas fa-question-circle fa-lg"></i>
+          <select class="form-control" id="keperluan" name="keperluan" required>
+            <option value="Wawancara tentang Cuaca">Wawancara tentang Cuaca</option>
+            <option value="Konsultasi">Konsultasi</option>
+            <option value="Lainnya">Lainnya</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="unit_ruang">Unit/Ruang yang dituju</label>
+        <div class="input-group">
+          <i class="fas fa-door-open fa-lg"></i>
+          <select class="form-control" id="unit_ruang" name="unit_ruang">
+            <option value="-">-</option>
+            <option value="Ruang A">Ruang A</option>
+            <option value="Ruang B">Ruang B</option>
+            <option value="Ruang C">Ruang C</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" name="submit">Simpan Data</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+ 
+  <script>
+    $(document).ready(function() {
+      $('#nama_lengkap').focus();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="survei.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Buku Tamu Digital BBMKG Wilayah III</h1>
+        <h2 class="subtitle">Form Index Kepuasan Masyarakat terhadap Pelayanan BMKG</h2>
+        <form id="feedback-form" class="form">
+            <div class="form-group">
+                <label for="name" class="label">Nama Lengkap *</label>
+                <input type="text" id="name" name="name" required class="input">
+            </div>
+
+            <div class="question">
+                <p class="question-text">1. Bagaimana Pendapat anda tentang kesopanan dan keramahan petugas kami?</p>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="question1" value="Sangat Sopan dan Ramah" class="radio-input">
+                        <span class="radio-text">Sangat Sopan dan Ramah</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question1" value="Sopan dan Ramah" class="radio-input">
+                        <span class="radio-text">Sopan dan Ramah</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question1" value="Kurang Sopan dan Kurang Ramah" class="radio-input">
+                        <span class="radio-text">Kurang Sopan dan Kurang Ramah</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question1" value="Tidak Sopan dan Tidak Ramah" class="radio-input">
+                        <span class="radio-text">Tidak Sopan dan Tidak Ramah</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p class="question-text">2. Bagaimana pendapat anda tentang kecakapan petugas kami dalam mengarahkan anda sesuai kepentingan anda?</p>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="question2" value="Sangat Cakap" class="radio-input">
+                        <span class="radio-text">Sangat Cakap</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question2" value="Cakap" class="radio-input">
+                        <span class="radio-text">Cakap</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question2" value="Kurang Cakap" class="radio-input">
+                        <span class="radio-text">Kurang Cakap</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question2" value="Tidak Cakap" class="radio-input">
+                        <span class="radio-text">Tidak Cakap</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p class="question-text">3. Bagaimana pendapat anda terkait kenyamanan di kantor kami?</p>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="question3" value="Sangat Nyaman" class="radio-input">
+                        <span class="radio-text">Sangat Nyaman</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question3" value="Nyaman" class="radio-input">
+                        <span class="radio-text">Nyaman</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question3" value="Kurang Nyaman" class="radio-input">
+                        <span class="radio-text">Kurang Nyaman</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="question3" value="Tidak Nyaman" class="radio-input">
+                        <span class="radio-text">Tidak Nyaman</span>
+                    </label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-button">Simpan</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

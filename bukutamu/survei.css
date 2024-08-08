@@ -1,0 +1,90 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #f9f9f9;
+    line-height: 1.6; /* tambahkan line-height untuk membuat jarak antar baris lebih rapi */
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px; /* tambahkan margin-bottom untuk membuat jarak antar input lebih rapi */
+}
+
+.question {
+    margin-bottom: 30px; /* tambahkan margin-bottom untuk membuat jarak antar pertanyaan lebih rapi */
+}
+
+.question-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radio-input {
+    margin-right: 10px;
+}
+
+.radio-text {
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* tambahkan margin-top untuk membuat jarak antar tombol submit lebih rapi */
+}
+
+.submit-button:hover {
+    background-color: #3e8e41;
+}
